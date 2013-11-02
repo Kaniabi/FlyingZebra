@@ -1,3 +1,6 @@
 [submodule "Brigadeiro"]
 	path = Brigadeiro
 	url = git@github.com:Kaniabi/Brigadeiro.git
+[submodule "DimDoors"]
+	path = DimDoors
+	url = git@github.com:Kaniabi/DimDoors.git
