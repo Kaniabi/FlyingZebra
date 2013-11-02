@@ -4,3 +4,6 @@
 [submodule "DimDoors"]
 	path = DimDoors
 	url = git@github.com:Kaniabi/DimDoors.git
+[submodule "forge"]
+	path = forge
+	url = https://github.com/MinecraftForge/MinecraftForge.git
