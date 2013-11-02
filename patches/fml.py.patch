@@ -1,0 +1,14 @@
+diff --git a/install/fml.py b/install/fml.py
+index 9b13ee2..9044c04 100644
+--- a/install/fml.py
++++ b/install/fml.py
+@@ -620,7 +620,8 @@ def whereis(filename, rootdir):
+         
+ def find_java():
+     # Snagged from MCP so we can gather this info without setting up it's Command object
+-    results = []
++    import os
++    results = [os.path.expandvars('$JAVA_HOME/bin')]
+     if os.name == 'nt':
+         if not results:
+             import _winreg

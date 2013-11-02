@@ -1,0 +1,15 @@
+diff --git a/build.xml b/build.xml
+index 7f4eff2..1a901cb 100644
+--- a/build.xml
++++ b/build.xml
+@@ -31,9 +31,7 @@
+     </condition>
+     <property name="fml.python.dir" location="${basedir}/python" />
+     <property name="fml.lzma.dir" location="${basedir}/lzmabin" />
+-    <condition property="python.exe" value="${fml.python.dir}/python_fml" else="python">
+-      <os family="Windows" />
+-    </condition>
++    <property name="python.exe" location="${env.PYTHONHOME}/python.exe" />
+     <condition property="lzma.exe" value="${fml.lzma.dir}/xz.exe" else="xz">
+       <os family="Windows" />
+     </condition>

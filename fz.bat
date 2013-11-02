@@ -1,0 +1,1 @@
+@python fz\fz.py %*
