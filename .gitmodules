@@ -1,6 +1,3 @@
-[submodule "forge"]
-	path = forge
-	url = https://github.com/MinecraftForge/MinecraftForge.git
 [submodule "Brigadeiro"]
 	path = Brigadeiro
 	url = git@github.com:Kaniabi/Brigadeiro.git
