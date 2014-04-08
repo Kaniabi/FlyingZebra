@@ -1,4 +1,4 @@
-from ben10.clikit.app import App
+from clikit.app import App
 from ben10.filesystem import CopyFile, Cwd, IsDir, DeleteDirectory, CopyFiles, \
     CopyDirectory
 from ben10.foundation.pushpop import PushPop
